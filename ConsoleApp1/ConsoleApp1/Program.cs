@@ -31,7 +31,7 @@ namespace laba1
             bool isGreater = --m > n--;
             Console.WriteLine("--m > n-- = {0}, m = {1}, n = {2}", isGreater, m, n);
 
-            // f(x) = корень 5-й степени из (x^3 + x^4) + ctg(arctg(x^2))
+            // f(x) = корень 5-й степени из (x³ + x⁴) + ctg(arctg(x²))
             Console.WriteLine();
             if (!TryReadDouble("x", out var x))
             {
